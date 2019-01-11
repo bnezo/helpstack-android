@@ -20,19 +20,19 @@
         </activity>
         <activity
             android:name=".activities.NewIssueActivity"
-            android:windowSoftInputMode="adjustResize"></activity>
+            android:windowSoftInputMode="adjustResize"/>
         <activity
             android:name=".activities.NewUserActivity"
-            android:windowSoftInputMode="adjustResize"></activity>
+            android:windowSoftInputMode="adjustResize"/>
         <activity
             android:name=".activities.IssueDetailActivity"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"></activity>
-        <activity android:name=".activities.ArticleActivity"></activity>
-        <activity android:name=".activities.SectionActivity"></activity>
-        <activity android:name=".activities.ImageAttachmentDisplayActivity"></activity>
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name=".activities.ArticleActivity"/>
+        <activity android:name=".activities.SectionActivity"/>
+        <activity android:name=".activities.ImageAttachmentDisplayActivity"/>
         <activity
             android:name=".activities.EditAttachmentActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"/>
 
         <receiver
             android:name=".service.AttachmentDownloadReceiver"
